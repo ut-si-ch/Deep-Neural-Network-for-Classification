@@ -3,7 +3,7 @@
 
 ## 🧾 Overview
 
-This project addresses the problem of classifying wine types (red or white) based on their chemical properties using a deep learning approach. The dataset utilized consists of various chemical measurements of red and white wines sourced from a publicly available UCI Machine Learning Repository. The modeling status involves training and evaluating a Sequential neural network for binary classification.
+This project addresses the problem of **classifying wine types (red or white) based on their chemical properties using a deep learning approach.** The dataset utilized consists of various chemical measurements of red and white wines sourced from a publicly available **UCI Machine Learning Repository.** The modeling status involves training and evaluating a **Sequential neural network** for **binary classification.**
 
 ---
 
@@ -22,7 +22,7 @@ This project simulates how a deep learning pipeline can be applied to a structur
 
 ## 📊 Data Understanding
 
-The data used in this project is a combination of two datasets from the UCI Machine Learning Repository: red wine quality and white wine quality. The data consists of 12 chemical features and a target variable indicating the wine type (red or white). The combined dataset contains 6497 samples. The timeframe of the data is not explicitly stated in the provided code. A limitation of this dataset might be that it's from a specific source (P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, 47(4):547-553, 2009.), and the results might not generalize perfectly to all wines from all regions and vintages. The provided visualizations include a distribution plot of alcohol content for all wines and separate histograms for red and white wines, revealing differences in their alcohol distributions.
+The data used in this project is a combination of two datasets from the UCI Machine Learning Repository: red wine quality and white wine quality. The **data consists of 12 chemical features** and a **target variable indicating the wine type (red or white).** The combined **dataset contains 6497 samples.** The timeframe of the data is not explicitly stated in the provided code. A limitation of this dataset might be that it's from a specific source (P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, 47(4):547-553, 2009.), and the results might not generalize perfectly to all wines from all regions and vintages. The provided visualizations include a distribution plot of alcohol content for all wines and separate histograms for red and white wines, revealing differences in their alcohol distributions.
 
 ![image](https://github.com/user-attachments/assets/30c176ec-5ec0-4b78-94bf-7f594c6779fc)
 
@@ -35,7 +35,7 @@ Dataset used: **UCI Wine Dataset**
 
 ## 🤖 Modelling & Evaluation
 
-A Sequential deep learning model was used for binary classification. The model consists of an input layer (implicitly defined by the first Dense layer's input shape), two hidden Dense layers with ReLU activation (16 and 8 neurons respectively), and an output Dense layer with a sigmoid activation for binary classification. The model was compiled using the 'binary_crossentropy' loss function, the 'adam' optimizer, and 'accuracy' as the evaluation metric. The model was trained for 3 epochs with a batch size of 1.
+A **Sequential deep learning model** was used for binary classification. The model consists of **an input layer** (implicitly defined by the first Dense layer's input shape), **two hidden Dense layers with ReLU activation (16 and 8 neurons respectively)**, and **an output Dense layer with a sigmoid activation for binary classification.** The model was **compiled using the 'binary_crossentropy' loss function**, the **'adam' optimizer**, and **'accuracy' as the evaluation metric**. The model was trained for **3 epochs with a batch size of 1.**
 
 ### Deep Neural Network Architecture:
 - Input Layer:  12 features
